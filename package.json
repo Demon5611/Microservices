@@ -1,8 +1,8 @@
 {
-  "name": "Microservices",
+  "name": "microservices",
   "version": "1.0.0",
   "scripts": {
-    "start": "ng serve --port 4200"
+   "start": "NODE_OPTIONS=--openssl-legacy-provider ng serve --port 4200"
   },
   "dependencies": {
     "@angular/core": "^9.0.0",
