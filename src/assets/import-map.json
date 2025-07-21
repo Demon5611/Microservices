@@ -2,8 +2,7 @@
   "imports": {
     "vue": "https://unpkg.com/vue",
     "vue-router": "https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.min.js",
-    "@somename/vue-app": "//localhost:8000/js/app.js",
-    "@somename/react-app": "//localhost:8001/somename-react-app.js",
-    "@somename/angular-app": "//localhost:8002/main.js"
+    "@somename/vue-app": "//localhost:8001/js/app.js",
+    "@somename/react-app": "//localhost:8000/somename-react-app.js"
   }
 }
