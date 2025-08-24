@@ -26,7 +26,6 @@ export class SpaUnmountGuard
     return component.unmount().pipe(map(() => true));
   }
 
-  // Указываем, что может вернуть строку или null
   private findAppInRoute(
     route: ActivatedRouteSnapshot
   ): string | null {

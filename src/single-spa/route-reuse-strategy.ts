@@ -1,4 +1,4 @@
-// Исправленный вариант
+
 import { RouteReuseStrategy, ActivatedRouteSnapshot, DetachedRouteHandle } from '@angular/router';
 import { Injectable } from '@angular/core';
 
@@ -11,7 +11,7 @@ export class MicroFrontendRouteReuseStrategy implements RouteReuseStrategy {
   shouldAttach(route: ActivatedRouteSnapshot): boolean {
     return false;
   }
-  // Теперь возвращаем DetachedRouteHandle или null
+
   retrieve(route: ActivatedRouteSnapshot): DetachedRouteHandle | null {
     return null;
   }
